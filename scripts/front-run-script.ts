@@ -27,7 +27,7 @@ async function main() {
     });
 }
 
-async function resubmitTxWithHighGas(transaction: any, provider) {
+async function resubmitTxWithHighGas(transaction: any, provider: any) {
 
     let privatekey = '<private-key>';
     let wallet = new ethers.Wallet(privatekey, provider);
